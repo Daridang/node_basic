@@ -1,0 +1,20 @@
+{
+  "name": "node_basic",
+  "version": "1.0.0",
+  "description": "express exercise",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daridang/node_basic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daridang/node_basic/issues"
+  },
+  "homepage": "https://github.com/Daridang/node_basic#readme"
+}

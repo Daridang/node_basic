@@ -4,7 +4,8 @@
 <!-- 2. susikuriam src direktorija ir server.js failus -->
 <!-- 3. inicijuojam git, padarom pirma commit, nusiunciam viska i github. -->
 
-4. inicijuojam npm
+<!-- 4. inicijuojam npm -->
+
 5. isirasom express ir cors
 6. sukuriam serveri su port 3000 (consoleje pranesa kad serveris paleistas)
 7. sukuriam enpointa GET '/' kuri grazina "`< h1 >Sveiki is back end< / h1 >`"
