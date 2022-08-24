@@ -2,9 +2,14 @@
 
 const cs = require('casual')
 
-const posts = createArray()
+// #region create random town
+const town = cs.city
+// #endregion create random town
 
-function createArray() {
+// #region create random posts
+const posts = createPostsArray()
+
+function createPostsArray() {
     const arr = []
     for (let i = 0; i < 3; i++) {
         arr.push(createPost())
@@ -13,9 +18,11 @@ function createArray() {
 }
 
 function createPost() {
-    return { title: `${cs.title}`, text: `${cs.text}`}
+    return { title: `${cs.title}`, text: `${cs.text}` }
 }
+// #endregion create random posts
 
 module.exports = {
-    posts
+    posts,
+    town
 }

@@ -12,9 +12,10 @@
 
 <!-- 7. sukuriam enpointa GET '/' kuri grazina "`< h1 >Sveiki is back end< / h1 >`" -->
 
-8. sukuriam endpointa GET /posts kuris grazina json masyva su 3 postais
-   postas turi title ir text
-9. sukuriam endpointa GET /api/town kuris grazina random miesta is npm casual(naudotas pries tai pratime)
+<!-- 8. sukuriam endpointa GET /posts kuris grazina json masyva su 3 postais postas turi title ir text -->
+
+<!-- 9. sukuriam endpointa GET /api/town kuris grazina random miesta is npm casual(naudotas pries tai pratime) -->
+
 10. sukuriam front end html ir js ir mygtuko paspaudimu gaunam duomenis is
     visu sukurtu endpointu. vienas endpontas vienas mygtukas. atvaizduoti html
 11. sukurti scripto komanda package.json kad paleisti serveri su 'npm start'
