@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 990px;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}

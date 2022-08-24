@@ -1,9 +1,12 @@
 'use strict'
 
 const express = require('express')
+const cors = require('cors')
 const { posts, town } = require('./modules/data')
 const app = express()
 const port = 3000
+
+app.use(cors())
 
 app.get('/api/town', (req, res) => {
     res.status(200).send(town)
